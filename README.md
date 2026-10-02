@@ -14,6 +14,10 @@ A 60 percent margin is a 150 percent markup on the same cost and price. Confusin
 
 An engineering slide rule: cream panel, ruled tick scales, serif display figures, and a segmented selector for the known value.
 
+## Why this exists
+
+Margin and markup are easy to confuse, and pricing off the wrong one leaves money on the table. This is a single HTML file that does the arithmetic in your browser with no tracking and no dependencies. MIT licensed.
+
 ## Not financial advice
 
 This tool performs arithmetic on the numbers you enter. It is not financial, tax, accounting, or legal advice, and it does not account for your specific circumstances. Verify any figure before acting on it.
@@ -22,9 +26,27 @@ This tool performs arithmetic on the numbers you enter. It is not financial, tax
 
 Everything runs in your browser. Nothing you type is sent anywhere, stored, or saved. Closing the tab clears it.
 
-## Use it
+## Use
+
+1. Pick the value you know besides cost: Selling price, Margin %, or Markup %.
+2. Enter the unit cost.
+3. Enter the one figure you picked. The results update as you type.
+4. Read price, profit per unit, margin and markup side by side.
 
 Open `index.html` in any modern browser, or host it as a static page. No build step, no dependencies, no network calls.
+
+## Run locally
+
+```
+git clone https://github.com/0xelitesystem/profit-margin-and-markup-calculator
+cd profit-margin-and-markup-calculator
+```
+
+Open `index.html` in a browser, or serve the folder with `python -m http.server` and visit http://localhost:8000.
+
+## Build
+
+No build step. It is a single `index.html` file.
 
 ## More
 
